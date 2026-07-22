@@ -44,7 +44,7 @@ export const siteConfig = {
     "Formação Completa em Pilates Solo, Bola e Aparelhos (VOLL Pilates Group - 120h)",
     "Prática Baseada em Evidências (PBE, 2025)",
     "Fisiologia Clínica do Exercício e Reabilitação Cardiopulmonar e Metabólica (CCR)",
-    "Tratamento de Hérnias de Disco Lombares (Flexo-Descompressão) & Quiropraxia",
+    "Reabilitação Funcional & Tratamento de Hérnias de Disco Lombares",
   ],
 
   /** Horários de atendimento */
@@ -121,7 +121,7 @@ export const siteConfig = {
   publicoAlvo: [
     {
       title: "Dor Crônica & Postura",
-      desc: "Alívio efetivo de dores na lombar, cervical, ciático e tratamento de hérnias de disco via flexo-descompressão e quiropraxia.",
+      desc: "Alívio efetivo de dores na lombar, cervical, ciático e reabilitação postural especializada de hérnias de disco.",
     },
     {
       title: "Reabilitação de Lesão",

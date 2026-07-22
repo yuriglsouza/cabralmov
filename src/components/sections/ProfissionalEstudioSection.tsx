@@ -26,7 +26,7 @@ export const ProfissionalEstudioSection: React.FC = () => {
             <div className="relative rounded-xl overflow-hidden shadow-warm border border-sage-soft/40 aspect-[4/5] bg-sage-soft">
               {/* Foto Real do Profissional (4:5) */}
               <Image
-                src="/images/profissional1.jpeg"
+                src="/images/profissional1.PNG"
                 alt={`Fisioterapeuta responsável ${siteConfig.nomeProfissional}`}
                 fill
                 className="object-cover"

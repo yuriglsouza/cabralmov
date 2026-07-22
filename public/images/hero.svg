@@ -1,0 +1,9 @@
+<svg width="800" height="1000" viewBox="0 0 800 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="1000" fill="#C8CDB8"/>
+  <rect x="40" y="40" width="720" height="920" rx="16" stroke="#9AA47D" stroke-width="4" stroke-dasharray="8 8"/>
+  <circle cx="400" cy="420" r="120" fill="#5C6842" opacity="0.15"/>
+  <path d="M280 540 C 350 380, 450 380, 520 540" stroke="#5C6842" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <text x="400" y="660" font-family="sans-serif" font-size="28" font-weight="bold" fill="#14140E" text-anchor="middle">SLOT: hero.jpg</text>
+  <text x="400" y="700" font-family="sans-serif" font-size="20" fill="#5C6842" text-anchor="middle">Proporção 4:5 (Foto Editorial em Aparelho)</text>
+  <text x="400" y="740" font-family="sans-serif" font-size="16" fill="#14140E" opacity="0.6" text-anchor="middle">Substitua por foto real do acervo CabralMov</text>
+</svg>

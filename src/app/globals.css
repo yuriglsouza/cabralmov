@@ -1,0 +1,106 @@
+@import url('https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@800,700,500&f[]=switzer@400,500,600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-paper: #F2F0E9;
+  --color-ink: #14140E;
+  --color-olive: #5C6842;
+  --color-sage: #9AA47D;
+  --color-sage-soft: #C8CDB8;
+  --color-walnut: #7A5230;
+  --color-white: #FFFFFF;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  font-family: 'Switzer', -apple-system, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: #F2F0E9;
+  color: #14140E;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom Selection */
+::selection {
+  background-color: #5C6842;
+  color: #F2F0E9;
+}
+
+/* Accessible focus ring */
+*:focus-visible {
+  outline: 2px solid #5C6842;
+  outline-offset: 4px;
+}
+
+/* Fluid Typography Helpers */
+.font-display {
+  font-family: 'Cabinet Grotesk', system-ui, sans-serif;
+}
+
+.text-hero-display {
+  font-size: clamp(2.75rem, 6vw, 5.5rem);
+  line-height: 0.96;
+  letter-spacing: -0.03em;
+  font-weight: 800;
+}
+
+.text-section-title {
+  font-size: clamp(2rem, 4vw, 3.25rem);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+}
+
+.text-lead {
+  font-size: clamp(1.125rem, 2vw, 1.375rem);
+  line-height: 1.5;
+}
+
+/* Linha de Movimento Animation Keyframes */
+@keyframes dash {
+  from {
+    stroke-dashoffset: 1000;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.animate-draw-line {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 2.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Reduced Motion Override */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .animate-draw-line {
+    stroke-dashoffset: 0 !important;
+    animation: none !important;
+  }
+}

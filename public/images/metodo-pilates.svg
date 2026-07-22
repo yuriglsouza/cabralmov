@@ -1,0 +1,7 @@
+<svg width="800" height="1000" viewBox="0 0 800 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="1000" fill="#F2F0E9"/>
+  <rect x="40" y="40" width="720" height="920" rx="16" stroke="#9AA47D" stroke-width="4"/>
+  <path d="M200 480 Q 400 300 600 480" stroke="#5C6842" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <text x="400" y="620" font-family="sans-serif" font-size="28" font-weight="bold" fill="#14140E" text-anchor="middle">metodo-pilates.jpg</text>
+  <text x="400" y="660" font-family="sans-serif" font-size="20" fill="#5C6842" text-anchor="middle">Aparelhos Clássicos Kauffer (4:5)</text>
+</svg>

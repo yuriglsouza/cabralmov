@@ -24,9 +24,9 @@ export const ProfissionalEstudioSection: React.FC = () => {
             className="lg:col-span-5"
           >
             <div className="relative rounded-xl overflow-hidden shadow-warm border border-sage-soft/40 aspect-[4/5] bg-sage-soft">
-              {/* Slot de Imagem: profissional.jpg (4:5) */}
+              {/* Foto Real do Profissional (4:5) */}
               <Image
-                src="/images/profissional.svg"
+                src="/images/profissional1.jpeg"
                 alt={`Fisioterapeuta responsável ${siteConfig.nomeProfissional}`}
                 fill
                 className="object-cover"
@@ -118,9 +118,9 @@ export const ProfissionalEstudioSection: React.FC = () => {
           </div>
 
           <div className="relative rounded-2xl overflow-hidden shadow-warm border border-sage-soft/40 aspect-[16/9] bg-sage-soft">
-            {/* Slot de Imagem: estudio.jpg (16:9) */}
+            {/* Foto Real do Estúdio (16:9) */}
             <Image
-              src="/images/estudio.svg"
+              src="/images/estudio1.jpeg"
               alt="Visão geral do espaço CabralMov com equipamentos clássicos Kauffer"
               fill
               className="object-cover hover:scale-102 transition-transform duration-700"

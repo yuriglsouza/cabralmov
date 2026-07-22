@@ -29,9 +29,9 @@ export const MetodoSection: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {siteConfig.pilares.map((pilar, index) => {
             const imageMap: Record<string, string> = {
-              pilates: '/images/metodo-pilates.svg',
-              funcional: '/images/metodo-funcional.svg',
-              reabilitacao: '/images/metodo-reabilitacao.svg',
+              pilates: '/images/metodo-pilates1.jpeg',
+              funcional: '/images/metodo-funcional1.jpeg',
+              reabilitacao: '/images/metodo-reabilitacao1.jpeg',
             };
 
             return (
@@ -46,9 +46,8 @@ export const MetodoSection: React.FC = () => {
                   <div className="space-y-6">
                     {/* Imagem do Pilar (proporção 4:5) */}
                     <div className="relative aspect-[4/5] rounded-lg overflow-hidden bg-sage-soft/30 border border-sage-soft/40">
-                      {/* Slot de imagem: substitua o arquivo svg por jpg no acervo do cliente */}
                       <Image
-                        src={imageMap[pilar.id] || '/images/metodo-pilates.svg'}
+                        src={imageMap[pilar.id] || '/images/metodo-pilates1.jpeg'}
                         alt={`Prática de ${pilar.title} no estúdio CabralMov`}
                         fill
                         className="object-cover group-hover:scale-105 transition-transform duration-500"

@@ -44,6 +44,7 @@ export const siteConfig = {
     "Formação Completa em Pilates Solo, Bola e Aparelhos (VOLL Pilates Group - 120h)",
     "Prática Baseada em Evidências (PBE, 2025)",
     "Fisiologia Clínica do Exercício e Reabilitação Cardiopulmonar e Metabólica (CCR)",
+    "Classificação Internacional de Funcionalidade, Incapacidade e Saúde (CIF / COFFITO - 20h)",
     "Reabilitação Funcional & Tratamento de Hérnias de Disco Lombares",
   ],
 

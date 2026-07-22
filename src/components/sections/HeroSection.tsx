@@ -108,10 +108,11 @@ export const HeroSection: React.FC = () => {
                   muted
                   playsInline
                   preload="auto"
+                  poster="/images/estudio1.jpeg"
                   aria-label="Vídeo de apresentação dos exercícios e aparelhos de Pilates no estúdio CabralMov"
                   className="w-full h-full object-contain bg-ink rounded-xl"
                 >
-                  <source src="/images/crie_um_video_em_loop_o_final.mp4" type="video/mp4" />
+                  <source src="/images/hero-movimento.mp4" type="video/mp4" />
                   Seu navegador não suporta a exibição de vídeos HTML5.
                 </video>
                 

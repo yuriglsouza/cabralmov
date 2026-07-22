@@ -37,14 +37,13 @@ export const siteConfig = {
   /** Link do Currículo Lattes Oficial CNPq */
   lattesUrl: "http://lattes.cnpq.br/1151213625445143",
 
-  /** Resumo das Qualificações Atualizadas do Lattes */
+  /** Resumo das Qualificações Atualizadas do Lattes (Enxuto e Objetivo) */
   qualificacoes: [
-    "Graduação em Fisioterapia (Faculdade Estácio de Alagoas - Estácio FAL)",
-    "Especialização em Reabilitação Cardiopulmonar e Metabólica (Instituto HIB - 380h)",
-    "Formação Completa em Pilates Solo, Bola e Aparelhos (VOLL Pilates Group - 120h)",
-    "Prática Baseada em Evidências (PBE, 2025)",
-    "Fisiologia Clínica do Exercício e Reabilitação Cardiopulmonar e Metabólica (CCR)",
-    "Classificação Internacional de Funcionalidade, Incapacidade e Saúde (CIF / COFFITO - 20h)",
+    "Graduação em Fisioterapia (Estácio FAL)",
+    "Especialização em Reabilitação Cardiopulmonar & Metabólica (Instituto HIB - 380h)",
+    "Formação Completa em Pilates Solo, Bola e Aparelhos (VOLL Pilates - 120h)",
+    "Prática Baseada em Evidências (PBE)",
+    "Classificação Internacional de Funcionalidade (CIF / COFFITO - 20h)",
     "Reabilitação Funcional & Tratamento de Hérnias de Disco Lombares",
   ],
 
@@ -90,7 +89,7 @@ export const siteConfig = {
   // ──────────────────────────────────────────────────────────────────────────
   taglines: {
     heroTitle: "Devolvemos a sua liberdade de movimento.",
-    heroSubtitle: "Pilates clínico, treino funcional e reabilitação no Centro de Blumenau. Unimos a precisão da fisioterapia, o fortalecimento do pilates em aparelhos Kauffer e a dinâmica da mecânica humana para um corpo forte e sem dor.",
+    heroSubtitle: "Pilates clínico, treino funcional e reabilitação no Centro de Blumenau. Atendimento individualizado em aparelhos Kauffer para um corpo forte, alinhado e sem dor.",
     manifestoQuote: "Os únicos remédios que eu prescrevo — e que você não encontra na farmácia.",
     manifestoSub: "Movimento intencional. Cada sessão é desenhada para reprogramar o seu corpo, alinhar a sua estrutura e restaurar a sua autonomia diária.",
     diferencialHandwriting: "Cada corpo tem uma história.",
@@ -102,19 +101,19 @@ export const siteConfig = {
     {
       id: "pilates",
       title: "Pilates Clínico & Clássico",
-      description: "Prática em aparelhos profissionais Kauffer (Reformer, Cadillac, Chair e Barrels). Fortalecimento do core, descompressão articular e reeducação postural baseada na Formação VOLL Pilates (120h).",
+      description: "Aparelhos clássicos Kauffer (Reformer, Cadillac, Chair e Barrels). Fortalecimento do core, descompressão articular e reeducação postural avançada (Formação VOLL 120h).",
       icon: "reformer",
     },
     {
       id: "funcional",
       title: "Treino Funcional Integrado",
-      description: "Construção de força consciente, estabilidade e capacidade motora respaldadas pela Fisiologia Clínica do Exercício (CCR).",
+      description: "Força consciente, estabilidade e capacidade motora adaptadas às exigências da sua rotina e performance.",
       icon: "activity",
     },
     {
       id: "reabilitacao",
       title: "Reabilitação & Fisioterapia",
-      description: "Tratamento de hérnias de disco, dores crônicas e reabilitação cardiopulmonar e metabólica conduzidos pelo Dr. Mateus Cabral com Prática Baseada em Evidências (PBE).",
+      description: "Tratamento de hérnias de disco, dores crônicas e reabilitação cardiopulmonar e metabólica com Prática Baseada em Evidências (PBE).",
       icon: "shield",
     },
   ],
@@ -149,7 +148,7 @@ export const siteConfig = {
   diferenciais: [
     {
       number: "01",
-      title: "Avaliação & Atendimento Individualizado",
+      title: "Atendimento Individualizado",
       desc: "Sem treinos genéricos. Cada sessão é adaptada às suas necessidades biológicas e restrições biomecânicas.",
     },
     {
@@ -164,8 +163,8 @@ export const siteConfig = {
     },
     {
       number: "04",
-      title: "Dr. Mateus Cabral (CREFITO 10/333927-F)",
-      desc: "Especialista em Reabilitação Cardiopulmonar e Metabólica, Formação VOLL Pilates (120h) e Prática Baseada em Evidências.",
+      title: "Fisioterapeuta Especialista",
+      desc: "Dr. Mateus Cabral (CREFITO 10/333927-F) — Especialista em Reabilitação Cardiopulmonar, Metabólica e Pilates VOLL.",
     },
   ],
 

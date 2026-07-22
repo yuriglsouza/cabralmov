@@ -75,7 +75,7 @@ export const ProfissionalEstudioSection: React.FC = () => {
             </div>
 
             <p className="text-lead text-ink/80 leading-relaxed">
-              Com formação continuada focada em **Prática Baseada em Evidências (PBE)**, **Formação Completa em Pilates VOLL (120h)** e **Fisiologia Clínica do Exercício (CCR)**, o Dr. Mateus Cabral aplica protocolos científicos para dor crônica, lesões articulares e reeducação motora.
+              Com formação continuada focada em <strong className="font-semibold text-ink">Prática Baseada em Evidências (PBE)</strong>, <strong className="font-semibold text-ink">Formação Completa em Pilates VOLL (120h)</strong> e <strong className="font-semibold text-ink">Fisiologia Clínica do Exercício (CCR)</strong>, o Dr. Mateus Cabral aplica protocolos científicos para dor crônica, lesões articulares e reeducação motora.
             </p>
 
             {/* Lista de Certificações Lattes */}

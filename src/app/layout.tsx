@@ -79,7 +79,7 @@ export default function RootLayout({
         'Thursday',
         'Friday',
       ],
-      opens: '06:00',
+      opens: '07:00',
       closes: '20:00',
     },
     sameAs: [siteConfig.instagramUrl],

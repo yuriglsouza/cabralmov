@@ -40,15 +40,15 @@ export const siteConfig = {
   /** Resumo das Qualificações Atualizadas do Lattes */
   qualificacoes: [
     "Graduação em Fisioterapia (Faculdade Estácio de Alagoas - Estácio FAL)",
-    "Especialização em Reabilitação Cardiopulmonar (Instituto HIB - 380h)",
+    "Especialização em Reabilitação Cardiopulmonar e Metabólica (Instituto HIB - 380h)",
     "Formação Completa em Pilates Solo, Bola e Aparelhos (VOLL Pilates Group - 120h)",
     "Prática Baseada em Evidências (PBE, 2025)",
-    "Fisiologia Clínica do Exercício e Reabilitação Cardiovascular (CCR)",
+    "Fisiologia Clínica do Exercício e Reabilitação Cardiopulmonar e Metabólica (CCR)",
     "Tratamento de Hérnias de Disco Lombares (Flexo-Descompressão) & Quiropraxia",
   ],
 
   /** Horários de atendimento */
-  horariosAtendimento: "Segunda a Sexta-feira: 06h às 20h | Sábados: sob agendamento",
+  horariosAtendimento: "Segunda a Sexta-feira: 07h às 20h | Sábados: sob agendamento",
 
   /** Depoimentos REAIS de alunos extraídos do Google Avaliações (5.0 ★ - 18 Avaliações) */
   depoimentos: [
@@ -113,7 +113,7 @@ export const siteConfig = {
     {
       id: "reabilitacao",
       title: "Reabilitação & Fisioterapia",
-      description: "Tratamento de hérnias de disco, dores crônicas e reabilitação cardiopulmonar e vascular conduzidos pelo Dr. Mateus Cabral com Prática Baseada em Evidências (PBE).",
+      description: "Tratamento de hérnias de disco, dores crônicas e reabilitação cardiopulmonar e metabólica conduzidos pelo Dr. Mateus Cabral com Prática Baseada em Evidências (PBE).",
       icon: "shield",
     },
   ],
@@ -137,7 +137,7 @@ export const siteConfig = {
     },
     {
       title: "Protocolo para Lipedema",
-      desc: "Exercícios de baixo impacto e estímulo do retorno venoso e vascular para alívio de dores e inchaço nas pernas.",
+      desc: "Exercícios de baixo impacto e estímulo do retorno venoso e metabólico para alívio de dores e inchaço nas pernas.",
     },
     {
       title: "Performance & Autocuidado",
@@ -164,7 +164,7 @@ export const siteConfig = {
     {
       number: "04",
       title: "Dr. Mateus Cabral (CREFITO 10/333927-F)",
-      desc: "Especialista em Reabilitação Cardiopulmonar, Formação VOLL Pilates (120h) e Prática Baseada em Evidências.",
+      desc: "Especialista em Reabilitação Cardiopulmonar e Metabólica, Formação VOLL Pilates (120h) e Prática Baseada em Evidências.",
     },
   ],
 

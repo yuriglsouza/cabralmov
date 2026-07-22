@@ -13,7 +13,7 @@ export const siteConfig = {
   instagramUrl: "https://instagram.com/cabralmov",
 
   // ──────────────────────────────────────────────────────────────────────────
-  // DADOS REAIS EXTRAÍDOS DO PERFIL DA EMPRESA
+  // DADOS REAIS EXTRAÍDOS DO PERFIL DA EMPRESA E CURRÍCULO LATTES
   // ──────────────────────────────────────────────────────────────────────────
   
   /** WhatsApp principal para todos os CTAs */
@@ -31,8 +31,21 @@ export const siteConfig = {
   /** Nome do Fisioterapeuta Responsável */
   nomeProfissional: "Dr. Mateus Barbosa Cabral",
 
-  /** Formação e Registro Profissional */
-  crefitoOuFormacao: "CREFITO 10/333927-F — Fisioterapeuta (Formação Completa em Pilates VOLL & Reabilitação)",
+  /** Registro Profissional */
+  crefitoOuFormacao: "CREFITO 10/333927-F",
+
+  /** Link do Currículo Lattes Oficial CNPq */
+  lattesUrl: "http://lattes.cnpq.br/1151213625445143",
+
+  /** Resumo das Qualificações Atualizadas do Lattes */
+  qualificacoes: [
+    "Graduação em Fisioterapia (Faculdade Estácio de Alagoas - Estácio FAL)",
+    "Especialização em Reabilitação Cardiopulmonar (Instituto HIB - 380h)",
+    "Formação Completa em Pilates Solo, Bola e Aparelhos (VOLL Pilates Group - 120h)",
+    "Prática Baseada em Evidências (PBE, 2025)",
+    "Fisiologia Clínica do Exercício e Reabilitação Cardiovascular (CCR)",
+    "Tratamento de Hérnias de Disco Lombares (Flexo-Descompressão) & Quiropraxia",
+  ],
 
   /** Horários de atendimento */
   horariosAtendimento: "Segunda a Sexta-feira: 06h às 20h | Sábados: sob agendamento",
@@ -88,19 +101,19 @@ export const siteConfig = {
     {
       id: "pilates",
       title: "Pilates Clínico & Clássico",
-      description: "Prática em aparelhos profissionais Kauffer (Reformer, Cadillac, Chair e Barrels). Fortalecimento do core, descompressão articular e reeducação postural avançada com Formação VOLL Pilates.",
+      description: "Prática em aparelhos profissionais Kauffer (Reformer, Cadillac, Chair e Barrels). Fortalecimento do core, descompressão articular e reeducação postural baseada na Formação VOLL Pilates (120h).",
       icon: "reformer",
     },
     {
       id: "funcional",
       title: "Treino Funcional Integrado",
-      description: "Construção de força consciente, estabilidade e capacidade motora adaptada às necessidades individuais do seu corpo.",
+      description: "Construção de força consciente, estabilidade e capacidade motora respaldadas pela Fisiologia Clínica do Exercício (CCR).",
       icon: "activity",
     },
     {
       id: "reabilitacao",
       title: "Reabilitação & Fisioterapia",
-      description: "Fisioterapia neuro-musculoesquelética e reabilitação cardiovascular/respiratória conduzida com rigor científico pelo Dr. Mateus Cabral.",
+      description: "Tratamento de hérnias de disco, dores crônicas e reabilitação cardiopulmonar e vascular conduzidos pelo Dr. Mateus Cabral com Prática Baseada em Evidências (PBE).",
       icon: "shield",
     },
   ],
@@ -108,11 +121,11 @@ export const siteConfig = {
   publicoAlvo: [
     {
       title: "Dor Crônica & Postura",
-      desc: "Alívio efetivo de dores na lombar, cervical, ciático e desalinhamentos causados pela rotina.",
+      desc: "Alívio efetivo de dores na lombar, cervical, ciático e tratamento de hérnias de disco via flexo-descompressão e quiropraxia.",
     },
     {
       title: "Reabilitação de Lesão",
-      desc: "Recuperação segura e progressiva de lesões musculares, articulares e ligamentares.",
+      desc: "Recuperação segura e progressiva de lesões musculares, articulares e pós-operatórios.",
     },
     {
       title: "Longevidade & Mobilidade",
@@ -124,7 +137,7 @@ export const siteConfig = {
     },
     {
       title: "Protocolo para Lipedema",
-      desc: "Exercícios de baixo impacto e estímulo do retorno venoso para alívio de dores e inchaço nas pernas.",
+      desc: "Exercícios de baixo impacto e estímulo do retorno venoso e vascular para alívio de dores e inchaço nas pernas.",
     },
     {
       title: "Performance & Autocuidado",
@@ -151,7 +164,7 @@ export const siteConfig = {
     {
       number: "04",
       title: "Dr. Mateus Cabral (CREFITO 10/333927-F)",
-      desc: "Fisioterapeuta graduado especialista em Pilates, Reabilitação e Mecânica do Movimento Humano.",
+      desc: "Especialista em Reabilitação Cardiopulmonar, Formação VOLL Pilates (120h) e Prática Baseada em Evidências.",
     },
   ],
 

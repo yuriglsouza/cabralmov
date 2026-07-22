@@ -13,6 +13,14 @@ const caveat = Caveat({
 export const metadata: Metadata = {
   title: `${siteConfig.name} — ${siteConfig.subtitle} | Estúdio de Pilates & Reabilitação em Blumenau`,
   description: siteConfig.taglines.heroSubtitle,
+  icons: {
+    icon: [
+      { url: '/images/icon.jpeg' },
+      { url: '/favicon.ico' },
+    ],
+    shortcut: '/images/icon.jpeg',
+    apple: '/images/icon.jpeg',
+  },
   keywords: [
     'Pilates Blumenau',
     'Reabilitação Blumenau',
@@ -88,6 +96,9 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className={`${caveat.variable}`}>
       <head>
+        <link rel="icon" href="/images/icon.jpeg" type="image/jpeg" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/images/icon.jpeg" />
         <link
           rel="preconnect"
           href="https://api.fontshare.com"
